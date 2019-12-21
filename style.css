@@ -1,3 +1,76 @@
 h1  {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', R;
+    
+    font-weight: 5em;
+    font-size: 130px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(59, 11, 104);
+}
+
+h3 {
+    
+    font-size: 2em;
+    font-family:'Aclonica', sans-serif;
+}
+
+h2 {
+    font-family: 'Monda', sans-serif ; 
+}
+h4 {
+    font-family:'Lakki Reddy', cursive;
+    font-size: 1.2em;
+}
+
+p {
+    font-family: 'Cookie', cursive;
+    font-size: 1.8em;
+}
+
+ul {
+    font-size: 1.9em;
+    font-family:  'Cookie', cursive;
+    font-weight: 400 bold;
+    
+}
+
+.bg-image {
+    background: black url(https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg);
+    height: 2700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+
+.eat li{
+    display: flex;
+    justify-content: initial;
+    align-content: flex-start;
+    gap: 1em;
+    border: rgb(75, 44, 44);
+    background-color: rgb(236, 229, 209);
+    padding: .2em;
+    margin: 0.5em;
+}
+
+.noteat li {
+    display: flex;
+    justify-content: initial;
+    align-content: flex-start;
+    padding: 0.2em;
+    gap: 3em;
+    background-color: lemonchiffon;
+    margin: 0.5em;
+}
+
+.ketoflu p {
+    text-align: justify;
+}
+
+.lunch .breakfast .dinner {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
 }
