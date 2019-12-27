@@ -4,20 +4,28 @@ h1  {
     font-size: 130px;
     font-family: 'Kaushan Script', cursive;
     color: rgb(59, 11, 104);
+    padding: 1em;
 }
-
+.keto {
+    text-align: center;
+}
 h3 {
     
     font-size: 2em;
     font-family:'Aclonica', sans-serif;
+    background: white ;
+    padding: 1.5em;
 }
 
 h2 {
     font-family: 'Monda', sans-serif ; 
+    color: rgb(62, 6, 95);
+    background: rgb(236, 235, 229);
 }
 h4 {
     font-family:'Lakki Reddy', cursive;
     font-size: 1.2em;
+    color: brown;
 }
 
 p {
@@ -34,7 +42,7 @@ ul {
 
 .bg-image {
     background: black url(https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg);
-    height: 2700px;
+    height: 3700px;
     width: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -73,4 +81,23 @@ ul {
 .lunch .breakfast .dinner {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (min-width: 800px) {
+
+    .bg-image {
+        height: 4000px;
+    }
+h3 {
+    padding: 2em;
+}
+
+.breakfast {
+    display: grid;
+
+    justify-content: space-around;
+    align-items: center
+    background:white;
+}
+    
 }
