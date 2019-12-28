@@ -20,7 +20,9 @@ h3 {
 h2 {
     font-family: 'Monda', sans-serif ; 
     color: rgb(62, 6, 95);
-    background: rgb(236, 235, 229);
+    background: rgb(49, 48, 40);
+    color: lightyellow;
+    padding: 1em;
 }
 h4 {
     font-family:'Lakki Reddy', cursive;
@@ -92,12 +94,20 @@ h3 {
     padding: 2em;
 }
 
-.breakfast {
+.ideas ul{
+   
+    display: flex;
+     justify-content: space-around;
+    }
+.ideas li {
+    width: 30%;
     display: grid;
-
-    justify-content: space-around;
-    align-items: center
-    background:white;
+        grid-auto-columns: fr 1fr;
+        gap: m;
+        /* background: rgb(233, 216, 216); */
+        padding: ;
+        columns: 2;
+        column-gap: 2em;
 }
     
 }
